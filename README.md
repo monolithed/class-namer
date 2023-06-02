@@ -1,4 +1,4 @@
-# class-namer
+# class-namer (cn)
 
 Introducing "class-namer" - a lightweight npm package designed to simplify the process of creating CSS class chains based on 
 a key-value object. With just 10 lines of code, the class-namer offers a minimalistic and efficient solution for generating 
@@ -13,9 +13,9 @@ making it a straightforward and efficient package.
 The example usage below perfectly illustrates the power of the class-namer:
 
 ```javascript
-import toggler from 'class-namer';
+import cn from '@monolithed/class-namer';
 
-const classNames = toggler({
+const classNames = cn({
     foo: true,
     bar: false,
     baz: true
@@ -34,12 +34,12 @@ The resulting string is returned, ready for immediate use in your styles.
 Toggler elegantly integrates with React components:
 
 ```javascript
-import toggler from 'class-namer';
+import cn from '@monolithed/class-namer';
 
 type Props = {active: boolean};
 
 const Example: React.FunctionComponent<Props> = ({active}) => {
-    const classNames = toggler({foo: active});
+    const classNames = cn({foo: active});
     
     return <div clasName={classNames}>Wow!</div>
 };
@@ -60,12 +60,12 @@ The class-namer seamlessly integrates with CSS Modules, providing a seamless sol
 ```
 
 ```javascript
-import toggler from 'class-namer';
+import cn from '@monolithed/class-namer';
 
 type Props = {active: boolean};
 
 const Example: React.FunctionComponent<Props> = ({active}) => {
-    const classNames = toggler({[styles.foo]: active});
+    const classNames = cn({[styles.foo]: active});
     
     return <div clasName={classNames}>Wow!</div>
 };
