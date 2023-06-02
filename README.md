@@ -1,14 +1,8 @@
 # class-namer (cn)
 
-Introducing "class-namer" - a lightweight npm package designed to simplify the process of creating CSS class chains based on 
+The class-namer is a lightweight npm package designed to simplify the process of creating CSS class chains based on 
 a key-value object. With just 10 lines of code, the class-namer offers a minimalistic and efficient solution for generating 
 concatenated strings of CSS classes.
-
-With just a single function call, you can effortlessly generate a concatenated string of CSS classes.
-
-The class-namer stands out as a lightweight solution for managing CSS class chains.
-It focuses on a single data type and doesn't require additional dependencies,
-making it a straightforward and efficient package.
 
 The example usage below perfectly illustrates the power of the class-namer:
 
