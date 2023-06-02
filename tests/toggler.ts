@@ -1,9 +1,9 @@
 import * as assert from 'assert';
-import toggler from '../';
+import cn from '../';
 
-describe('Toggler', () => {
+describe('@monolithed/class-namer', () => {
     it('Combine class names', async () => {
-        const actual = toggler({
+        const actual = cn({
             foo: true,
             bar: false,
             baz: true
@@ -13,7 +13,7 @@ describe('Toggler', () => {
     });
 
     it('Empty object', async () => {
-        const actual = toggler({});
+        const actual = cn({});
 
         assert.equal(actual, '');
     });
