@@ -13,7 +13,7 @@ making it a straightforward and efficient package.
 The example usage below perfectly illustrates the power of Toggler:
 
 ```javascript
-import toggler from 'toggler';
+import toggler from 'class-toggler';
 
 const classNames = toggler({
     foo: true,
@@ -34,7 +34,7 @@ The resulting string is returned, ready for immediate use in your styles.
 Toggler elegantly integrates with React components:
 
 ```javascript
-import toggler from 'toggler';
+import toggler from 'class-toggler';
 
 type Props = {active: boolean};
 
@@ -60,7 +60,7 @@ Toggler seamlessly integrates with CSS Modules, providing a seamless solution fo
 ```
 
 ```javascript
-import toggler from 'toggler';
+import toggler from 'class-toggler';
 
 type Props = {active: boolean};
 
@@ -86,13 +86,13 @@ Install with npm or Yarn:
 **npm**:
 
 ```
-npm install toggler
+npm install class-toggler
 ```
 
 **Yarn**:
 
 ```
-yarn add toggler
+yarn add class-toggler
 ```
 
 ## Contributing
