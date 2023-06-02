@@ -31,7 +31,7 @@ The resulting string is returned, ready for immediate use in your styles.
 
 ### What about React?
 
-Toggler elegantly integrates with React components:
+The class-namer elegantly integrates with React components:
 
 ```javascript
 import cn from '@monolithed/class-namer';
