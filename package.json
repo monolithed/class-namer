@@ -1,14 +1,14 @@
 {
-    "name": "class-toggler",
+    "name": "@monolithed/class-namer",
     "version": "0.0.1",
-    "description": "A a lightweight npm package designed to simplify the process of creating CSS class chains based on a key-value object.",
+    "description": "A lightweight npm package designed to simplify the process of creating CSS class chains based on a key-value object.",
     "keywords": [
         "CSS"
     ],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git@github.com:monolithed/class-toggler.git"
+        "url": "git@github.com:monolithed/class-namer.git"
     },
     "scripts": {
         "test": "npm prune && tsc && mocha tests"

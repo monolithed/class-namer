@@ -1,19 +1,19 @@
-# Toggler
+# class-namer
 
-Introducing "Toggler" - a lightweight npm package designed to simplify the process of creating CSS class chains based on 
-a key-value object. With just 13 lines of code, Toggler offers a minimalistic and efficient solution for generating 
+Introducing "class-namer" - a lightweight npm package designed to simplify the process of creating CSS class chains based on 
+a key-value object. With just 13 lines of code, the class-namer offers a minimalistic and efficient solution for generating 
 concatenated strings of CSS classes.
 
 With just a single function call, you can effortlessly generate a concatenated string of CSS classes.
 
-Toggler stands out as a lightweight solution for managing CSS class chains.
+The class-namer stands out as a lightweight solution for managing CSS class chains.
 It focuses on a single data type and doesn't require additional dependencies,
 making it a straightforward and efficient package.
 
-The example usage below perfectly illustrates the power of Toggler:
+The example usage below perfectly illustrates the power of the class-namer:
 
 ```javascript
-import toggler from 'class-toggler';
+import toggler from 'class-namer';
 
 const classNames = toggler({
     foo: true,
@@ -25,7 +25,7 @@ console.log(classNames);
 // Output: "foo baz"
 ```
 
-As demonstrated, Toggler intelligently composes a chain of CSS classes based on the provided object.
+As demonstrated, the class-namer intelligently composes a chain of CSS classes based on the provided object.
 It selectively includes the class if the associated boolean value is true and excludes it if false.
 The resulting string is returned, ready for immediate use in your styles.
 
@@ -34,7 +34,7 @@ The resulting string is returned, ready for immediate use in your styles.
 Toggler elegantly integrates with React components:
 
 ```javascript
-import toggler from 'class-toggler';
+import toggler from 'class-namer';
 
 type Props = {active: boolean};
 
@@ -51,8 +51,8 @@ const Example: React.FunctionComponent<Props> = ({active}) => {
 
 ### What about CSS-in-JS (CSS Modules)?
 
-If you're a fan of CSS Modules, you'll love what Toggler has to offer.<br /> 
-Toggler seamlessly integrates with CSS Modules, providing a seamless solution for managing class names within your modules.
+If you're a fan of CSS Modules, you'll love what the class-namer has to offer.<br />
+The class-namer seamlessly integrates with CSS Modules, providing a seamless solution for managing class names within your modules.
 
 
 ```css
@@ -60,7 +60,7 @@ Toggler seamlessly integrates with CSS Modules, providing a seamless solution fo
 ```
 
 ```javascript
-import toggler from 'class-toggler';
+import toggler from 'class-namer';
 
 type Props = {active: boolean};
 
@@ -75,8 +75,8 @@ const Example: React.FunctionComponent<Props> = ({active}) => {
 // <div class="foo">Wow!</div>
 ```
 
-Empower your development workflow with Toggler and enjoy the simplicity of creating CSS class chains effortlessly.<br />
-Say goodbye to cumbersome concatenations and embrace the power of Toggler - your go-to solution for managing CSS classes with ease.
+Empower your development workflow with the class-namer and enjoy the simplicity of creating CSS class chains effortlessly.<br />
+Say goodbye to cumbersome concatenations and embrace the power of the class-namer - your go-to solution for managing CSS classes with ease.
 
 
 ## Installation
@@ -86,13 +86,13 @@ Install with npm or Yarn:
 **npm**:
 
 ```
-npm install class-toggler
+npm install @monolithed/class-namer
 ```
 
 **Yarn**:
 
 ```
-yarn add class-toggler
+yarn add @monolithed/class-namer
 ```
 
 ## Contributing
