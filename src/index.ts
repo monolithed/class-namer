@@ -1,4 +1,4 @@
-const toggler = (object: {[key: string]: unknown}) => {
+export default function (object: {[key: string]: unknown}) {
     const result = [];
 
     for (const [name, value] of Object.entries(object)) {
@@ -8,6 +8,4 @@ const toggler = (object: {[key: string]: unknown}) => {
     }
 
     return result.join(' ');
-};
-
-export default toggler;
+}
