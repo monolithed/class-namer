@@ -1,0 +1,22 @@
+{
+    "name": "toggler",
+    "version": "0.0.1",
+    "description": "A a lightweight npm package designed to simplify the process of creating CSS class chains based on a key-value object.",
+    "keywords": [
+        "CSS"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:monolithed/toggler.git"
+    },
+    "scripts": {
+        "test": "npm prune && tsc && mocha tests"
+    },
+    "devDependencies": {
+        "@types/mocha": "^10.0.1",
+        "@types/node": "^20.2.5",
+        "mocha": "^10.2.0",
+        "typescript": "^5.1.3"
+    }
+}
