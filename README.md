@@ -1,4 +1,4 @@
-# toggler
+# Toggler
 
 Introducing "Toggler" - a lightweight npm package designed to simplify the process of creating CSS class chains based on 
 a key-value object. With just 13 lines of code, Toggler offers a minimalistic and efficient solution for generating 
@@ -51,7 +51,7 @@ const Example: React.FunctionComponent<Props> = ({active}) => {
 
 ### What about CSS-in-JS (CSS Modules)?
 
-If you're a fan of CSS Modules, you'll love what Toggler has to offer. 
+If you're a fan of CSS Modules, you'll love what Toggler has to offer.<br /> 
 Toggler seamlessly integrates with CSS Modules, providing a seamless solution for managing class names within your modules.
 
 
@@ -75,9 +75,8 @@ const Example: React.FunctionComponent<Props> = ({active}) => {
 // <div class="foo">Wow!</div>
 ```
 
-Empower your development workflow with Toggler and enjoy the simplicity of creating CSS class chains effortlessly.
-Say goodbye to cumbersome concatenations and embrace the power of Toggler -
-your go-to solution for managing CSS classes with ease.
+Empower your development workflow with Toggler and enjoy the simplicity of creating CSS class chains effortlessly.<br />
+Say goodbye to cumbersome concatenations and embrace the power of Toggler - your go-to solution for managing CSS classes with ease.
 
 
 ## Installation
